@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 st.set_page_config(page_title="SkillWise Dashboard", layout="wide")
-
+st.image("banner.png", use_column_width=True)
 # Header
 st.markdown("<h1 style='text-align: center; color: #4CAF50;'>SkillWise: Personalized Learning Dashboard</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Your progress. Your pace. Smart course recommendations, reimagined.</p>", unsafe_allow_html=True)
